@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
     background-color: #FEFEFE;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .container{
-    color: #B2AE9D;
+    color: #B2A789;
     display: flex;
     flex-direction: column;
 }
@@ -38,3 +42,11 @@
     max-width: 290px;
 }
 
+.text p{
+    width: 450px;
+}
+
+.top{
+    width: 125px;
+    margin: auto;
+}
