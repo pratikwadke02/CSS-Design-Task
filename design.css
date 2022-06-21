@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #FEFEFE;
+}
+
+.container{
+    color: #B2AE9D;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card{
+    height: 200px;
+    width: 290px;
+    text-align: center;
+    font-size: 1.3vh;
+    padding: 1vh;
+}
+
+.black{
+    color: black;
+}
+
+.card h1{
+    font-size: 8vh !important;
+}
+
+.text{
+    padding: 1vh;
+    font-size: 1.7vh;
+    max-width: 290px;
+}
+
